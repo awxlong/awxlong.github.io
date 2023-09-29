@@ -6,8 +6,10 @@ description: soliloquy on the complementarity of happiness and sadness.
 tags: food-for-thought
 categories: blog-post
 thumbnail: assets/img/happiness-sadness-dall-e-bing.jpg
+giscus_comments: true
+# related_posts: false
 ---
-<div style="text-align: justify">
+
 
 
 _An average youngster (regardless of having wrinkles on the skin, he can stay youthful by heart, hence the denomination "youngster") arrives at the fatefully encountered room, shining with bright sun rays and swept by the morning breeze. Though quiet intrigued about what the settler of that chamber would say addressing his concerns, he washes off all lingering thoughts and sits on the fluffy and tension-easing red sofa, located right next to that wooden desk filled with papers, probably with the settler's thoughts materialized on top of them. The settler, and as rightful author of those notes scattered around, picks one and sits down._
@@ -54,7 +56,8 @@ Beyond that beautiful horizon, an enormous balloon of hot gas is set to go down 
     Illustration of the complementareity of happiness and sadness. Perhaps what we call as happiness or maybe fulfillment is the integration of the positive and negative times. This illustration was generated via the Dall-E powered Bing Image Creator. My prompt was "the complementarity of happiness and sadness", and I'm surprised by the results.  
 </div>
 
-</div>
+Any thoughts or experience you want to share, or feedback to help us improve? Please comment below. 
+
 <!-- 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
