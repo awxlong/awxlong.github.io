@@ -16,7 +16,7 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: brain-fractal-3.jpg#  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://notesre.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -32,8 +32,8 @@ highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-them
 highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
-repo_theme_light: light       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: default           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
@@ -45,7 +45,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -125,7 +125,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Notes:Re # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Scattered notes of knowledge in the Ocean we know as Digital Life 
+blog_description: Scattered notes of knowledge in the Space we know as Digital Life 
 permalink: /blog/:year/:title/
 
 # Pagination
