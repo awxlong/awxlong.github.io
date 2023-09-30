@@ -6,7 +6,7 @@ description: soliloquy on the complementarity of happiness and sadness.
 tags: food-for-thought
 categories: blog-post
 thumbnail: assets/img/happiness-sadness-dall-e-bing.jpg
-giscus_comments: true
+disqus_comments: true
 # related_posts: false
 ---
 

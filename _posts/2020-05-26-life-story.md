@@ -6,7 +6,7 @@ description: thoughts on living a fulfilling life
 tags: food-for-thought
 categories: blog-post
 # thumbnail: assets/img/own-race-bing.jpg
-giscus_comments: true
+disqus_comments: true
 related_posts: false
 ---
 
