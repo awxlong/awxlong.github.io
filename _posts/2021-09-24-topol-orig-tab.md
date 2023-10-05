@@ -17,8 +17,8 @@ toc:
   - name: Current challenges
   - name: "AI and Medicine: Big Data and Emancipation"
   - name: "AI and Medicine: Mutual Empathy"
-  - name: "Overcoming today’s challenges to identify tomorrow’s"
-  - name: "Final remarks on AI & Healthcare"
+  - name: "Overcoming toda's challenges to identify tomorrow's"
+  - name: "Final remarks on AI and Healthcare"
 ---
 
 
@@ -72,7 +72,7 @@ Among the opportunities that generating one’s own data brings is that an effic
 
 Not far in the past I do acknowledge that I believed AI will sweep across the different fields of society, and in medicine it may well replace radiologists (sorting out X-rays), ophthalmologists (sorting out eye images), pathologists (sorting out tissue exams), cardiologists (diagnosing ECGs readings) or dermatologists (sorting out skin images). However, after reading “Deep Medicine”, I believe a more down-to-earth view is that, at least in the near future, AI can only serve as a helpful medical assistant that will help ease the burden on the mentioned medical professions, and not replace them. This is mainly because an important characteristic AI lacks is being holistic, or multitasking, a symbolic feature of narrow AI. A radiologist may not only examine X-ray images, he/she may also review the patient’s profile involving medical history, family history, or, perform even more diverse functions such as running and directing research teams, alleviating patient’s burden of their results, which requires emotional support, so all in all, this leaves AI the room of only becoming a very efficient virtual assistant that may very well alleviate the burden on doctor’s shoulders, on healthcare, and improve its efficiency during interaction with patients. 
 
-# Overcoming today’s challenges to identify tomorrow’s
+# Overcoming today's challenges to identify tomorrow's
 
 Of course, despite having discussed the futuristic prospects of AI in the healthcare sector, reality is that there are still a lot of challenges to be overcome in order for an efficient merging of both sectors.  Those that can be mentioned include: 
 - As Dr. Topol mentioned, there is already too much big data available, yet too little knowledge. This foreshadows the long road of mining all these data, subsequently process it and train efficient models, evaluate them and deploy them. For example, one such area in which a lot of knowledge is yet to be unthread is the human gut micriobiome and how it influences the host’s health; subsequently how would this knowledge be used by AI models to monitor patient’s health. 
@@ -83,7 +83,7 @@ Of course, despite having discussed the futuristic prospects of AI in the health
 
 A particular example that struck me when reading “The Patient Will See You Now”, is that by the year 2015 when this book was published, it was mentioned that there existed a company startup called Theranos. This company had the innovative idea of providing affordable and portable diagnostic tests for a lot of diseases using just a blood sample from the patient. This seemed to promise a lot of potential. However, years later it turned into a defunct company for allegations of fraud[^2]. We can learn from this real world case scenario that although the merging of AI and Healthcare is very attractive, promising and revolutionary, we should still retain our senses of skepticism, caution and honesty when materializing such potentials. 
 
-# Final remarks on AI & Healthcare
+# Final remarks on AI and Healthcare
 
 As mentioned throughout the text, the merging of AI and the Healthcare sector can be thought be revolutionary, and it’s going to drastically change our lives. It may redefine the patient-doctor relationship, such as emancipating the patient with data while liberating the doctor from burden. 
 Of course, perhaps a logical question that follows is when can we witness such a change? In my opinion, that day may come sporadically. We might transition through phases, instead of changing fundamentally our lifestyle in an instant. Although it’s true that part of the population of certain countries is already using smartwatches and smartphones to monitor health biomarkers like heart rate, we are still far from exploiting the full potential of our devices that has been mentioned throughout the text.  

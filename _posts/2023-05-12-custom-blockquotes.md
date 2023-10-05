@@ -1,13 +1,32 @@
 ---
 layout: post
-title: a post with custom blockquotes
-date: 2023-05-12 15:53:00-0400
-description: an example of a blog post with custom blockquotes
-tags: formatting blockquotes
-categories: sample-posts
-giscus_comments: true
+title: "The dichotomy of Vision and Language" # a post with custom blockquotes
+date: 2023-05-12 15:42:00-0400
+description: my comment on what is the relationship between the faculties of vision and language #an example of a blog post with custom blockquotes
+tags: food-for-though
+categories: blog-post
+disqus_comments: true
 related_posts: true
+thumbnail: assets/img/vision-language.png
 ---
+
+
+Lex Fridman and Ilya Sutskever had an interesting AI Podcast at https://www.youtube.com/watch?v=xoVibFYi1Gs
+
+An interesting question raised was where does vision starts and language ends, or viceversa. Here is a Venn Diagram which illustrates my opinion on this dichotomy:
+
+<figure>
+  <img src="/assets/img/vision-language.png" alt="Figure couldn't load due to an unknown error. Sorry.">
+</figure>
+
+I think our brain is not a monolith, in that there is a single algorithm underlying our perception, ability to speak a language, capacity for motor-control, memory, among others. Neuroscience divides and assigns different regions of the brains to different capacities. This is why patients, such as [patient H. M](https://en.wikipedia.org/wiki/Henry_Molaison), who have localized cerebral lesions may lose the capacity for memory, but not to speak. 
+
+Given this premise, I think vision and language consitute such an example of capacities which are entangled in our mind (consider reading a book, where both faculties are active as you're perceiving sentences from a page of it). However, despite entangled, I think we can try to unthread them, partly because there are also significant differences between them. 
+
+I mainly associate our perceptual system with processing the external real world. I could also associate it with an internal imagery that reflects the real world, e.g., we can see memories of a trip somewhere in the past. I associate language, however, not with imagery but rather with the manipulation of symbols. Specifically, I think language is intricately tied to the manipulation of numbers, and being able to think of math. I think the linguistic capability to think of math can be distinguished from the perceptual system mainly because _math doesn't exist in the real world, but rather in the abstract world_. 
+
+
+<!-- 
 This post shows how to add custom styles for blockquotes. Based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) implementation.
 
 We decided to support the same custom blockquotes as in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html), which are also found in a lot of other sites' styles. The styles definitions can be found on the [_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss) file, more specifically:
@@ -108,4 +127,4 @@ These custom styles can be used by adding the specific class to the blockquote, 
 >
 > This is a danger zone, and thus should
 > be used carefully
-{: .block-danger }
+{: .block-danger } -->
