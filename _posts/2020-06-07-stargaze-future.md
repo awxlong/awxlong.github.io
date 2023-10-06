@@ -26,6 +26,7 @@ toc:
   - name: Economics and Politics
   - name: Philosophy and Arts
   # - name: Other Typography?
+featured: true
 ---
 
 

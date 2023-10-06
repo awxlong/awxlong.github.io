@@ -43,7 +43,7 @@ Throughout the 7 decades of the pursuit of artificial intelligence, this field h
 
 # Mergers
 
-The above models can be assembled together to expand the capabilities of each:
+The above models can be assembled together to expand the capabilities of each, hopefully without compromising each other's strenghts while mitigating their respective weaknesses:
 
 - Knowledge graph embeddings
 - Deep reinforcement learning

@@ -19,6 +19,7 @@ toc:
   - name: "AI and Medicine: Mutual Empathy"
   - name: "Overcoming toda's challenges to identify tomorrow's"
   - name: "Final remarks on AI and Healthcare"
+featured: true
 ---
 
 
