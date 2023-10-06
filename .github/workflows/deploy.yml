@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-      - source
+      - main
   pull_request:
     branches:
       - master
-      - source
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -33,7 +33,7 @@ jobs:
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: '2.7'
+        ruby-version: '3.2.2'
         bundler-cache: true
     - name: Install deps
       run: |
