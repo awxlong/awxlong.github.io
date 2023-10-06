@@ -32,10 +32,6 @@ jobs:
         npm install -g mermaid.cli
         export JEKYLL_ENV=production
         bundle exec jekyll build
-    - name: Fix permission
-          run: |
-            chmod a+x bin/*
-            git commit -am "add execute permission to bin/deploy"
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
@@ -50,15 +46,19 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_HEAD_REF}"
           echo "::set-output name=NO_PUSH::--no-push"
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
+           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         if [[ ${{ github.repository }} = *.github.io ]]; then # user/org repo
           echo "::set-output name=DEPLOY_BRANCH::master"
         else
           echo "::set-output name=DEPLOY_BRANCH::gh-pages"
         fi
+    - name: Fix permission
+      run: |
+        chmod a+x bin/*
+        git commit -am "add execute permission to bin/deploy"
     - name: Deploy website
-      run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
+      run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }}
                     --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
 
