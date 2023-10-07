@@ -265,8 +265,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['class-notes', 'food-for-thought', 'research', 'creative-work', 'other'] # these tags will be displayed on the front page of your blog
-display_categories: ['blog-post'] # these categories will be displayed on the front page of your blog
+display_tags: ['food-for-thought', 'research', 'books-review','class-notes', 'creative-work', 'other'] # these tags will be displayed on the front page of your blog
+# display_categories: ['blog-post'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
