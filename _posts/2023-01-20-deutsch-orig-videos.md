@@ -8,6 +8,8 @@ categories: blog-post
 disqus_comments: true
 bibliography: 2023-my-main-refs.bib
 thumbnail: assets/img/begin-infty.jpg
+authors:
+    - name: An Xuelong
 ---
 
 <figure>

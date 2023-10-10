@@ -7,7 +7,7 @@ tags: class-notes
 categories: blog-post
 disqus_comments: true
 related_posts: false
-thumbnail: assets/img/essay-crafting.jpeg
+thumbnail: assets/img/essay-crafting.jpg
 toc:
     sidebar: left
 ---

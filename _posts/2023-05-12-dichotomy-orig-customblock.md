@@ -3,7 +3,7 @@ layout: post
 title: "The dichotomy of Vision and Language" # a post with custom blockquotes
 date: 2023-05-12 15:42:00-0400
 description: my comment on what is the relationship between the faculties of vision and language #an example of a blog post with custom blockquotes
-tags: food-for-though
+tags: food-for-thought
 categories: blog-post
 disqus_comments: true
 related_posts: true

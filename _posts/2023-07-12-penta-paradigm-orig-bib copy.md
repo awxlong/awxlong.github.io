@@ -3,7 +3,7 @@ layout: post
 title: Paradigms of AI modelling #a post with bibliography
 date: 2023-07-12 09:56:00-0400
 description: I share five different paradigms of modelling intelligence #an example of a blog post with bibliography
-tags: food-for-though
+tags: food-for-thought
 categories: blog-post
 disqus_comments: true
 related_posts: true
