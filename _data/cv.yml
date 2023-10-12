@@ -11,6 +11,10 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master of Science in AI for Biomedicine and Healthcare
+      institution: University College London
+      year: "expected 2024"
+
     - title: Master of Arts with Honours
       institution: University of Edinburgh
       year: 2023
@@ -55,7 +59,7 @@
     - title: Master Algorithm for Computational Biology
       items: 
         - Neurosymbolic AI and Reinforcement Learning
-        - Cell science
+        - Cell science, systems biology, pharmacogenomics, predictive medicine
     - title: Consilience of knowledge
       items:
         - Artificial intelligence, artificial general intelligence and the pursuit of meaning in life. 

@@ -38,6 +38,10 @@ By trying to win a debate, or craft the indisputable argument, I tend to resort 
  
 I highly recommend Prof. Steven Pinker's talk as the teachings there not only apply to writing good prose, but also in debates.
 
+Another way to sound indisputable is to basically hold no position, that is, being neutral on a debate. Something similar occurs in John Oliver's Last Week Tonight's show on [Climate Change Debate](https://www.youtube.com/watch?v=cjuGCJJUGsg), where the skepticism towards climate change while evidence in favor of climate change are presented as equally valid. Instead of thinking as two sides of a debate, one way to sound indisputable is for a debater to argue that all aspects of the two sides of a debate are equally valid, and thus we should reach no definite conclusion since everything is relative and depends on the point of view in which you're arguing. While I believed that reaching a common ground between contending sides was important in a debate, nowadays, I argue that we should choose one and defend it with valid argumentation. 
+
+Choosing to be debatable instead of indisputable risks being wrong on an idea. Whilst in the past I thought this meant a loss in credibility on my side, nowadays, I opt to believe this isn't in any ways negative per se. Knowing where I'm wrong is rather beneficial for knowing what are the aspects of an idea I should improve and defend, and if indefeasible, just abandon it. 
+
 Finally, the following is an article in Spanish I wrote on the dichotomy of the left and right, arguing that a pluralist approach that can identify the complementarity to each other and their attempt to solve the same problems concerning society. The idea I wanted to get across is that understanding is paramount when it comes to debating. The questions I wanted to raise concern what if opposite ideas have complementary elements with respect to one another. What if an idea's strengths don't really undermine other ideas. 
 
 
