@@ -23,6 +23,8 @@ There seems to exist two worlds which exist in the universe.
 
 The real, natural world which can be accessible through empirical means, and the abstract, mathematical world which are the means themselves with which we observe the real, natural world. Here, the real, natural world is what we can perceive with our senses. The mathematical world is an umbrella term to refer to the 'math' in our common day parlance, as well as including logic in its many forms: propositional, first-order and higher-order. 
 
+The real, natural world is subject to the laws of physics, which underlie chemistry and biology. In the abstract, mathematical world, such laws are not present: there we can think of breaking Newton's Universal Laws of Gravitation, the overall decrease of entropy against the Second Law of Thermodynamics, or, in general, anything within our mental capabilities[^3]. 
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/world-math.jpg" class="img-fluid rounded z-depth-1" %}
@@ -96,3 +98,5 @@ Nativists and empiricists are analogous to the scientists, and the brain is repr
 [^1]: the easier version proposed by the Tortoise from Gödel, Escher, Bach is easier to prove, which states that all even numbers less than or equal to two are the sum of two primes.  
 
 [^2]: he didn't clean it afterwards
+
+[^3]: what I listed above mainly involves equations with real and maybe imaginary numbers. However, what if there is more to these types of numbers that we haven't thought of, or we're incapable to even comprehend? Because this question is off-topic, I left it as a footnote. 
