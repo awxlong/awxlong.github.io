@@ -8,9 +8,7 @@ categories: blog-post
 disqus_comments: true
 related_posts: true
 toc:
-    sidebar: left
-
-# related_publications: einstein1950meaning, einstein1905movement
+    sidebar: left 
 ---
 
 I bumped into this paper on [X (formerly Twitter)](https://twitter.com/ChristophMolnar)
