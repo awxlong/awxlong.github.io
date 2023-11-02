@@ -1,18 +1,18 @@
 ---
 layout: distill
-title: "Review of the paper Prediction of mechanistic subtypes of Parkinson’s using patient-derived stem cell models"
-#a post with bibliography
-date: 2023-11-02 14:42
-description: Thoughts and comments on the paper "Prediction of mechanistic subtypes of Parkinson’s using patient-derived stem cell models" #an example of a blog post with bibliography 
+title: "Review of the paper Prediction of mechanistic subtypes of Parkinson's using patient derived stem cell models"
+date: 2023-11-02 19:42
+description: comments on a paper that leverages deep learning to classify cells into Parkinson's subtypes 
 tags: research
 categories: blog-post
 disqus_comments: true
-thumbnail: /assets/img/parkinson.png
+related_posts: true
 authors:
-    - name: An Xuelong
+  - name: Xuelong An
 toc:
-    -name: Brief summary
-    -name: My comments and future research directions
+  - name: Brief summary
+  - name: My comments and future research directions
+thumbnail: /assets/img/parkinson.png
 bibliography: deep-med.bib
 ---
 
@@ -42,6 +42,6 @@ One source of inspiration is from <d-cite key="li_2023_v1t"></d-cite>, where the
   <figcaption id="bottleneck">A depiction of the pipeline of a concept-bottleneck model. The first half outputs a set of concepts given an image, which can be learnt from intricate annotations, or metadata, of the image. The second half outputs a classification label. Figure extracted from the original paper </figcaption>
 </figure>
 
-With regards to the work by <d-cite key="dsa_2023_prediction"></d-cite>, one interesting extension to their CNN is to have it not predict a Parkinson subtype, but rather learn to predict the cell's physiological features stored as tabular data given image input. Subsequently, use the features to train a multi-class regressor using standard softmax to output a classification label. The prospect is that this hybrid model can leverage the high accuracy prediction of the CNN, whilst being explainable thanks to the logistic regressor. 
+Altogether, with regards to the work by <d-cite key="dsa_2023_prediction"></d-cite>, one interesting extension to their CNN is to have it not predict a Parkinson subtype, but rather learn to predict the cell's physiological features stored as tabular data given image input. Subsequently, use the features to train a multi-class regressor using standard softmax to output a classification label. The prospect is that this hybrid model can leverage the high accuracy prediction of the CNN, whilst being explainable thanks to the logistic regressor. 
 
 As a further improvement, we can use a [Slot Transformer](https://arxiv.org/abs/2210.11394) instead of the CNN with the hope of learning a disentangled representation given the image with its annotations. However, the architecture will be more computationally expensive. A pretrained Slot Transformer that already learnt to disentangle CLEVR-Scenes may be more powerful than training it from scratch.    
