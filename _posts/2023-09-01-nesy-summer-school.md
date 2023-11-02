@@ -134,7 +134,7 @@ I interpreted this question as whether neural networks can perform propositional
 <figure>
   <img src="/assets/img/logicgate.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
   <figcaption id="sgd"> Illustration of the problem setting of simulating an OR, AND and XOR gate. The notation A, B would correspond to the input to the neural network model, the truth table would be the supplied dataset, and the challenge was for the model to learn parameters that given those inputs could replicate the output resembling a logic gate. Single layer networks could learn AND, and OR gates, but the XOR could only be simulated by networks with more than one hidden layer. Illustration 'borrowed' from  
-https://adrian-pardo.github.io/perceptron/ <d-cite key="ergin_2014_chapter"></d-cite> </figcaption>
+https://adrian-pardo.github.io/perceptron/</figcaption>
 </figure>
 
 Nonetheless, whether this entails that neural networks can emulate inference in propositional logic is debatable. For example, see experiments and analysis done at the paper by [Honghua et. al, "On the Paradox of Learning to Reason"](https://arxiv.org/pdf/2205.11502.pdf). TL;DR, neural networks, no matter how deep they are, can't generalize to out of distribution test data in a simple propositional logic task of reasoning.   

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: "Are you Clever Hans or are you actually clever, Hans?" #a post with videos
 date: 2023-01-12 21:42:00
 description: my (mostly satirical) comments on ChatGPT and Gato, large, transformer-based models that shook the AI community on 2022  #this is what included videos could look like

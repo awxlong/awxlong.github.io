@@ -1,7 +1,0 @@
-Prediction of mechanistic subtypes of Parkinson’s using patient-derived stem cell models, among others. The latter of which was written by your team.
-
-I have a question stemming from this paper. I understand that the CNN-based architecture trained on images achieved higher classification accuracy, however it is a blackbox. The ML model trained on tabular data achieved lower classification accuracy, but yields mechanistic insight. I was wondering whether your team is considering integrating these two data sources into a single pipeline, in order to retain both high accuracy and explainability.
-
-This is inspired by a paper (https://arxiv.org/pdf/2302.03023.pdf) that integrated mice neural recording data along with behavioral data to predict neural responses, with an illustration shown below:
-
-Another source of inspiration is drawn from concept-bottleneck models (https://arxiv.org/pdf/2007.04612.pdf). So instead of having the CNN predict the PD-subtype or healthy control, you can have the CNN learn to predict the tabular data from image input, and from there make a classification prediction of the PD-subtype or healthy control using a standard softmax. An illustration from the paper is shown below:
