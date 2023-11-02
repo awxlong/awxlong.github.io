@@ -2,7 +2,7 @@
 layout: post
 title: The many interpretations of terms in artificial intelligence #a post with bibliography
 date: 2023-11-01 09:42:00-0400
-description: Some thoughts concerning how to interpret quotidian words appearing in AI research in a non-quotidian way. #an example of a blog post with bibliography
+description: "Some thoughts concerning how to interpret quotidian words appearing in AI research: knowledge, explanation, etc." #an example of a blog post with bibliography
 tags: food-for-thought
 categories: blog-post
 disqus_comments: true
