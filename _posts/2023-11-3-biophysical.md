@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: distill
 title: "Review of the paper Learning biophysical determinants of cell fate with deep neural networks"
 date: 2023-11-02 19:42
@@ -14,7 +14,7 @@ toc:
   - name: My comments and future research directions
 thumbnail: /assets/img/biophysical-mitosis.png
 bibliography: deep-med.bib
----
+--- -->
 
 # Brief summary 
 
