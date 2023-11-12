@@ -10,7 +10,7 @@ We have no control on what artifacts of the dataset a deep learning model is loo
 
 Prof. Xavier Trepat offers a very good [account](https://www.nature.com/articles/d41586-018-07246-8) on the complementarity of top-down and bottom-up processes. Consider the following thought experiment:  Top-down allows us to explain traffic jams, while bottom-up processes at most help us know how cars work.   
 
-In biomedicine, however, if we want to validate scientific discovery, mechanistic insight is indispensable. In that regard, AI can't further scientific discovery, only aid. 
+In biomedicine, however, if we want to validate scientific discovery, mechanistic insight is indispensable. In that regard, deep learning can't further scientific discovery, only aid. 
 
 It is still the human scientists deciding what sequence of genes to decode. 
 
@@ -18,11 +18,15 @@ At least in coursework, More challenging benchmarks, then should involve modific
 
 In the future, however, I have confidence that AI can inspire future directions of research. 
 
-### On the science of intelligence and how it impacts unrelated fields
+# Neuro-symbolic AI for building next-generation virtual cells
 
-NeSy, despite pursuing the understanding of human intelligence, can yield unexpected insights into tackling problems in completely unrelated fields
+In one of the most interesting articles I've read recently on [Building the next generation of virtual cells to understand cellular biology](https://www.sciencedirect.com/science/article/pii/S0006349523002369)
 
-The above statement is supported by anecdotal evidence where scientific research translated into overarching technological applications for social good on completely unrelated fields. Our confidence on such an idea can come from Prof. Geoffrey Hinton's [interview with CBS](https://www.youtube.com/watch?v=qpoRO378qRY), among the endeavors of other researchers pursuing science whose work was converted into technologies benefiting humankind. Efforts include:
+### A small note on the science of intelligence and how it impacts unrelated fields
+
+By themselves, NeSy AI methods are not designed to solve biomedical tasks like single-cell data analysis, in a way such as a sequence alignment algorithm is tailored for identifying similarities in gene sequences or a deep network architecture is assembled to solve a medical imaging reconstruction task. At its core, research on NeSy AI is to understand how the brain works. Despite pursuing how human intelligence functions, this can nonetheless can yield unexpected insights into tackling problems in completely unrelated fields like network biology or cell science.
+
+The above statement is supported by anecdotal evidence where scientific research translated into overarching technological applications for social good on completely unrelated fields. My confidence on such an idea can come from Prof. Geoffrey Hinton's [interview with CBS](https://www.youtube.com/watch?v=qpoRO378qRY), among the endeavors of other researchers pursuing science whose work was converted into technologies benefiting humankind. Efforts include:
 - [Prof. Katalin Karikó](https://arstechnica.com/health/2023/10/after-being-demoted-and-forced-to-retire-mrna-researcher-wins-nobel/), whose pursuit in understanding the central dogma of biology, namely how messenger-RNA translates into proteins, laid the foundation for the design of mRNA vaccines against the coronavirus during the COVID-19 pandemic. 
 - Prof. Yann LeCun, Prof. Yoshua Bengio, Prof. Jürgen Schmidhuber and Prof. Geoffrey Hinton himself, whose research into how the human brain works, such as how to simulate the visual cortex, how to reproduce human language, how can a machine achieve self-reference or how machines can learn like human beings, kickstarted the Third Revolution of Artificial Intelligence that can translate into a plethora of applications spanning over biomedicine
 - Prof. Noam Chomsky's work on a universal grammar underlying Human thought for understanding human language, which helped inspire work like the design of the [FORTRAN programming language](https://en.wikipedia.org/wiki/Noam_Chomsky#Reception_and_influence)

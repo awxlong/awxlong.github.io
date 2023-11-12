@@ -1,0 +1,1 @@
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\QThe simplest way would be to set up an intrinsic template like \"subject-verb-object\"^1 in order to offset portion of the probabilistic model's support^3 to not put any probability mass to structures other than \"subject-verb-object\".\\E$"}
