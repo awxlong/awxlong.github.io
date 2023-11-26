@@ -8,6 +8,8 @@ toc:
     sidebar: left
 categories: blog-post
 disqus_comments: true
+thumbnail: assets/img/jepa.png
+
 ---
 _A Path Towards Autonomous Machine Intelligence_ is a paper by [LeCun, Yann (2022)](https://openreview.net/pdf?id=BZ5a1r-kVsf) I discussed in Dr. Antonio Vergari's weekly lab meeting. 
 
