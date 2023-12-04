@@ -22,3 +22,27 @@ representation is not a reflection of the natural stimuli.
 unanswered questions:
     
     - can we control the representation that a machine learns so that it is scientifically meaningful.  
+
+A representation only exists in our imagination or mathematical reality. You can think of this space as [Penrose's Platonic World](https://hrstraub.ch/en/the-theory-of-the-three-worlds-penrose/)
+Data representation
+
+in symbolism
+
+Cat is 'cat'
+
+In connectionism
+
+(T, N, D)
+
+keep T fixed
+
+Table: Dimen
+Image
+graph
+
+
+Let T vary
+A sequence of images
+a sequence of graphs
+a sequence of tokens
+Relational databases

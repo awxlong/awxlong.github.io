@@ -41,7 +41,8 @@ Throughout the 7 decades of the pursuit of artificial intelligence, this field h
 
 - The main goal is to maximize reward given the current state, which can be either achieved via rules or via function approximation. 
 
-- A core process in reward reinforcement is about searching. 
+- A core process in reward reinforcement is about searching, a pursuit of novelty. 
+    - Reward reinforcement is not about minimizing the divergence to a training distribution, but rather explore. 
 
 - Reinforcement learning, by itself, is loosely related to thought, but more about acting. 
 
