@@ -10,6 +10,8 @@ related_posts: true
 thumbnail: assets/img/pc-logo.png
 ---
 
+# SPNs for imputing data
+
 The following is a Jupyter notebook ran on Google Colab using Kaggle's Titanic dataset to illustrate a practical use case of a probabilistic circuit, a sum-product network, from [deepprob-kit](https://github.com/deeprob-org/deeprob-kit): to impute missing tabular data.
 
 This notebook is forked from a Kaggle [tutorial](https://www.kaggle.com/code/ttminh27/using-autoencoder-to-impute-missing-data) on using a Tensorflow's autoencoder to impute missing data. Standard autoencoders can't:
