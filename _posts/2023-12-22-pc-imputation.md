@@ -17,9 +17,7 @@ The following is a Jupyter notebook ran on Google Colab using Kaggle's Titanic d
 This notebook is forked from a Kaggle [tutorial](https://www.kaggle.com/code/ttminh27/using-autoencoder-to-impute-missing-data) on using a Tensorflow's autoencoder to impute missing data. Standard autoencoders can't:
 - custom fill-in missing data
 - flexibly incorporate domain knowledge like what distribution is best used to model a feature
-
-Furthermore, probabilistic circuits are:
-- tractably compute missing data through maximum a posteriori estimation. 
+- Furthermore, p;robabilistic circuits can tractably compute missing data through maximum a posteriori estimation. 
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/using_pc_to_impute_missing_data.ipynb" | relative_url %}

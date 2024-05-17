@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: research
-description: my academic work, such as theses and essays I did in the University of Edinburgh.
+description: my academic work, such as theses and projects.
 nav: true
 nav_order: 1
 ---
