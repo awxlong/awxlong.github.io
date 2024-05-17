@@ -1,1 +1,1 @@
-{"devDependencies":{"purgecss":"^5.0.0"}}
+{"devDependencies":{"purgecss":"^5.0.0"},"dependencies":{"@mermaid-js/mermaid-cli":"^10.9.0","puppeteer":"^22.9.0"}}
