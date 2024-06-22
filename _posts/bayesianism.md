@@ -6,6 +6,11 @@ En secundaria, uno puede ser introducido al teorema de Bayes aplicado en una sit
 
 
 
+# Distribución 
+
+Una variable aleatoria X que representa el nivel de expresión de un gen se puede ver al menos de dos maneras. X tiene un valor verdadero subyacente que queremos medir. Habrá intervalos de incertidumbre porque cada vez que la medimos, obtenemos una medición diferente debido a artefactos de procedimiento como instrumentos imprecisos, perturbaciones, etc. Una forma alternativa de verlo es que la variable aleatoria X es inherentemente estocástica; simplemente no tiene ningún valor real. Una distribución de probabilidad f(variable;parámetro) es un modelo de variable aleatoria que describe todos los valores posibles que puede tomar y las probabilidades de cada valor. Está parametrizado por algunos parámetros que describen la incertidumbre de la variable aleatoria.
+Una distribución de probabilidad describe una variable discreta, llamada función de masa de probabilidad, y puede verse así: {1: 0.3,2: 0.5,3: 0.2, y el resto de números: 0}. Esto describe una variable aleatoria discreta que, si la observamos, toma valores 1 con una probabilidad del 30%, 2 con una probabilidad del 50%, y así sucesivamente. La evaluación de una variable para esta función, como 5, devuelve su probabilidad correspondiente de 0.
+
 # Obteniendo la distribución posterior
 
 

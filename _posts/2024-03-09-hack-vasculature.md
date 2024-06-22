@@ -18,7 +18,7 @@ George Tang and I participated in the SenNet + HOA Hacking the Human Vasculature
     - Finetuning the nnUnet architecture to the provided dataset in the competition for 15 epochs
 - My inference notebook is at: https://www.kaggle.com/code/awxlong/hack-vasculature-transfer-learning-inference
     - It consists of loading the weights trained above and inferring over the test dataset.
-    - We adopt [post-processing steps](https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475074) by 3rd place winner (shootout to ForcewithMe) which consists of tuning a threshold for binarizing the segmentation mask which helped us boost the performance of our model up to a competitive 0.67 Dice score. For reasons unknown, without their post-processing step, my segmentation DICE score was stuck at ~0.001.
+    - We adopt [post-processing steps](https://www.kaggle.com/competitions/blood-vessel-segmentation/discussion/475074) by 3rd place winner (shout-out to ForcewithMe) which consists of tuning a threshold for binarizing the segmentation mask which helped us boost the performance of our model up to a competitive 0.67 Dice score. For reasons unknown, without their post-processing step, my segmentation DICE score was stuck at ~0.001.
 
 # Reflection
 
