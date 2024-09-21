@@ -7,7 +7,7 @@ tags: food-for-thought research
 categories: blog-post 
 disqus_comments: true
 related_posts: true
-featured: true
+# featured: true
 thumbnail: /assets/img/summer-school-cover.png
 toc:
     sidebar: left

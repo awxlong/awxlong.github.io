@@ -26,6 +26,8 @@ unanswered questions:
 A representation only exists in our imagination or mathematical reality. You can think of this space as [Penrose's Platonic World](https://hrstraub.ch/en/the-theory-of-the-three-worlds-penrose/)
 Data representation
 
+- If we act upon a representation, will it affect the original representee. 
+
 in symbolism
 
 Cat is 'cat'
