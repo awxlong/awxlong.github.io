@@ -29,7 +29,7 @@ A very interesting position preprint on how to build a virtual cell has been pub
 There are many novel ideas proposed throughout the preprint. One of the main approaches proposed in this position paper is to build a foundation model (let's call it AI Virtual Cell) which can produce embeddings at multiple scales: molecular, cellular and tissue-level universal representations. Such foundation model would be trained with multimodal data spanning genomic information (sequence data), fluorence microscopy (imaging), single-cell RNA sequencing data (sequencing data), multiplex imaging (imaging), spatial transcriptomics (spatially-resolved sequencing data, or imaging + sequencing data), among others. See the figure below
 
 <figure>
-  <img src="assets/img/foundation-model-cell-embedder.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
+  <img src="/assets/img/foundation-model-cell-embedder.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
   <figcaption id="cell-embedder">On the left, multiple modalities of data spanning genetics, fluorescence microscopy to spatially-resolved omics, are used to train a foundatio embedder. On the right, it is depicted how an input can be transformed into a universal representation across 3 scales: molecular, cellular and tissue. Figure is cropped from the original article at https://arxiv.org/abs/2409.11654 (without the original authors' permission by the way 😅)</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ In one of the most interesting articles I've read recently on [Building the next
 Instead of focusing on training foundation model embedders, we can think of training a model that can output programs, where programs take as input raw biological data like a genetic sequence, and outputs a sequence of programs that can transforms the raw biological data. In the metastasis example above, the programs could explain to us how metastasis happens. See the depiction below:
 
 <figure>
-  <img src="assets/img/nesy-cell.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
+  <img src="/assets/img/nesy-cell.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
   <figcaption id="cell-embedder">A depiction of a neurosymbolic programming approach to virtual cell. Consider a single nucleotide sequence🧬 changing over time. A neural-network driven search of programs takes the sequence as input, and outputs a sequence of program or steps that transforms the input sequence to a final state. The sequence of steps serve as an explanation to the final state, which could correspond to cancer. </figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ Instead of focusing on training foundation model embedders, we can think of trai
 Another approach to building a virtual cell which I find very interesting and promising is by integrating inverse reinforcement learning (RL) as argued in this article: https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1333760/full. One caveat in mechanistic modelling is its strong assumptions, for example, "cancer cells metastasize because they want to replicate". This is _disputable_, what if the goal of cancer cells was different, and more nuanced than intially assummed. Inverse RL can alleviate this modelling assumption by not specifying some reward for a particular goal, but derive the reward function from observe behavior from cancer cells. The above paper proposes the following diagram, in which the first step on transforming the microscopy image to a cell state can make use of the above AI Virtual Cell embedder.  
 
 <figure>
-  <img src="assets/img/irl.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
+  <img src="/assets/img/irl.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
   <figcaption id="cell-embedder">A diagram of how to use inverse reinforcement learning to model cell behavior in a dynamic feedback loop with wet-lab experiments to validate model predictions. </figcaption>
 </figure>
 
