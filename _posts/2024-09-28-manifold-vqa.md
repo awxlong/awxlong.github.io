@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: "Ideas on transitioning from monolith to manifold of models"
-date: 2024-09-28 18:42
+date: 2024-09-28 15:42
 description: my thoughts on a visual-question answering pipeline inspired by the Society of Minds
 tags: research
 categories: blog-post

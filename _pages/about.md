@@ -21,7 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hello World! I'm An Wang Xuelong, a junior researcher interested in the [consilience of knowledge](https://en.wikipedia.org/wiki/Consilience_%28book%29), with a particular focus within the field of artificial intelligence and socio-biological science. 
 
-I aim to strike the balance the scientific pursuit to understand intelligence and the technological endeavor to adopt what we learn in the research of AI in applications for social good, namely to [improve healthcare](https://www.youtube.com/watch?v=6Af625dJnB0)
+I aim to strike the balance the scientific pursuit to understand intelligence and the technological endeavor to adopt what we learn in the research of AI in applications for social good.
+
+<!-- , namely to [improve healthcare](https://www.youtube.com/watch?v=6Af625dJnB0) -->
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 <!-- 
