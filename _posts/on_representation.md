@@ -11,7 +11,7 @@ in other words, we don't have an internal representation for every object, we ha
 
 to give an example, remember Song Zhu Chun's and-or graphs. we used it to parse bottles when we were talking that afternoon:
 
-representation is not a reflection of the natural stimuli. 
+Representation is not a reflection of the natural stimuli. 
     - for example a water molecule. A representation of it would not be the precise 3D model of it, accounting for scale. That would be the water molecule itself.  
     -t could be an abstract template which wich we measure
         - such template can be obtained via averaging prior observations. average is just a weighted aggregation.  a latent that is the average 
