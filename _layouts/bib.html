@@ -182,6 +182,13 @@
             <a href="{{ entry.preprint | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.demo %}
+            {% if entry.demo contains '://' -%}
+            <a href="{{ entry.demo }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+            {%- else -%}
+            <a href="{{ entry.demo | prepend: '/assets/img/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
+            {%- endif %}
+          {%- endif %}
           {%- if entry.slides %}
             {% if entry.slides contains '://' -%}
             <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
