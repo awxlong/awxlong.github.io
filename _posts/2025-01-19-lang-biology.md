@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The interesting analogy between language and biology
-date: 2023-11-21 12:42
+date: 2025-01-19 12:42
 description: comments on the interesting parallels that surface in NLP and computational biology, and how each informs about problems and solutions about each other
 tags: research food-for-thought
 categories: blog-post
@@ -11,14 +11,11 @@ authors:
   - name: Xuelong An
 toc:
   sidebar: left
-thumbnail: /assets/img/alphafold-pipeline.png
+thumbnail: /assets/img/alphafold-pipelin.png
   
 ---
 # On the interesting parallels of language and biology: a taster
 
-<!-- Reading an interesting paper by Lauren, 
-
-Hi Antonio, I have a question on VAEs. -->
 
 There are interesting parallels between language and biology. As a result, problems surfacing in natural language processing (NLP) tasks, may well inform us about possible problems and solutions in computational biology. 
 
@@ -28,14 +25,11 @@ Another common point concerns the representation of words and biological entitie
 
 # Language-agnostic grammar: structure for language and biology 
 
-<!-- Another important i
 
-A priori we need to distinguish between  -->
 Inspired by Chomsky's linguistics, there is work on learning a language-agnostic tree-like structure to learn embeddings of text, called [Self-Structured AutoEncoder](https://arxiv.org/abs/2305.05588). This tree-like structure combines bottom-up composition of local contextual embeddings with top-down decomposition of fully contextual embeddings to learn in an unsupervised routine. Self-StrAE achieves competitive autoencoding performance with respect to a LLM, BERT-Based variant, denoting its low parameter efficiency that reflects the parsimonious nature of grammar.
 
 Given the parallels with language, it is interesting to explore how would it work if Self-StrAE is applied to a DNA, or RNA sequence. What will the learnt structure tell us about the DNA sequence. Learnt embeddings would shed light into sequences of DNA which may have fucntional similarities. The compositions found by Self-StrAE would also find sequence motifs, which are short recurring patterns of DNA that map to specific biological functions like protein docking, because of frequent coocurrence leading to similar embeddings.     
-<!-- 
-how would it work with genes? will it compose motifs -->
+
 # Language respects constraints, so does biology
 
 Another interesting parallel are the constraints underlying both generation of sentences and biological entities/processes.
@@ -56,17 +50,13 @@ Generating implausible proteins, or invalid angle rotations between bonds is aki
 
 It is debatable whether the rules can be learnt from data. Rather, the role of rules and constraints might be to shape learning. 
 
-are programs the language for thought for computers, if so how NLP mahines aid biological scientific discovery.  
+<figure>
+  <img src="/assets/img/nesy-cell.png" alt="Sorry. Image couldn't load." width="100%" height="auto">
+  <figcaption id="cell-embedder">A depiction of a neurosymbolic programming approach to virtual cell. Consider a single nucleotide sequence🧬 changing over time. A neural-network driven search of programs takes the sequence as input, and outputs a sequence of program or steps that transforms the input sequence to a final state. The sequence of steps serve as an explanation to the final state, which could correspond to cancer. </figcaption>
+</figure>
 
 For further thought experiments, imagine whether a model can learn what are the rules of programming languages by only observing code, or infer the rules of grammar from just observing written text. 
 
-Structural 
-
-So I know that autoencoders are able to learn embeddings of the training data, however the training data is usually "static". Imagine now that the training data has a temporal dimension, and measures features that change over time of, say, a cell. Is there work that trains a "recurrent" VAE such that it can learn embeddings that are dependent on time? so if I want to visualize the embeddings, they change depending the time step in which I access them.
-
-Does this make sense?
-
-Lorenzo recommended VAEs that disentangle features of the input, such as a $$\beta$$-VAE, and see whether it can disentangle time. however, the paper he shared mainly worked with celebA. While there are multiple images of faces, each face is just a "snapshot", so maybe the VAE learns to disentangle noses from eyes from mouths, but not necessarily how they can change over time. Also, I'm not thinking of working with images. I'm thinking of tabular data that measures the features of multiple cells across time. 
 
 # NLP inspiring future biomedical research directions
 
@@ -79,16 +69,33 @@ An interesting thought experiment hence, is can this grammar be expanded given t
   <figcaption id="ontology"> .  </figcaption>
 </figure>
 
-Mutations as contradictions? -> this sentence "this sentence has five words" has five words
 
-For example, challenges in NLP involve processing a sequence not only forward, but also backward. Consider the sentence: "shift two positions backward of each letter of the word 'trapelo' per the alphabet to decode it", where it is needed to read the sentence back and forth to process the word. Do we have to read a genome forward and backwards?
 # Final thoughts
+
 I believe that because we can natively read Human language, research on NLP is more commoditized and well-received by the public than computational genomics, despite the parallels outlined above. I think it is worth for me and anyone interested in computational biology to closely follow the research literature on language modelling to draw inspiration ofr DNA/RNA sequence modelling.  
 
-Finally, I leave you the following thought experiment: we humans can only read human language. While we can not natively understand the language of biology, our AI-based tools can understand them. Statement paraphrase from Demis Hassabis's [statement](https://www.youtube.com/watch?v=Gfr50f6ZBvo) that 'AI may just turn out to be the language to describe biology'
+Finally, I leave you the following thought experiment: we humans can only read human language. While we can not natively understand the language of biology, our AI-based tools can understand them. 
+
+'AI may just turn out to be the language to describe biology' - Demis Hassabis's [statement](https://www.youtube.com/watch?v=Gfr50f6ZBvo) 
 
 If you have answers, share thoughts, you can leave a comment or please email me!
 
 [^1]: Sentences don't follow this simple template, but it helps get the idea across that placing structure into the support of a probabilistic model helps guide learning.  
 [^2]: While it is true that some bonds between atoms like a carbon-carbon bond have no restricted rotation angle, others like a [hydrogen peroxide](https://www.sciencedirect.com/science/article/pii/S0022285217302990) is constrained to a setting of rotation degrees (with some uncertainty).  
 [^3]: A probabilistic model's support refers to the domain of values for which the output of the model is non-zero. 
+
+
+<!-- 
+are programs the language for thought for computers, if so how NLP mahines aid biological scientific discovery.  
+
+
+Structural 
+
+So I know that autoencoders are able to learn embeddings of the training data, however the training data is usually "static". Imagine now that the training data has a temporal dimension, and measures features that change over time of, say, a cell. Is there work that trains a "recurrent" VAE such that it can learn embeddings that are dependent on time? so if I want to visualize the embeddings, they change depending the time step in which I access them.
+
+Does this make sense?
+
+Lorenzo recommended VAEs that disentangle features of the input, such as a $$\beta$$-VAE, and see whether it can disentangle time. however, the paper he shared mainly worked with celebA. While there are multiple images of faces, each face is just a "snapshot", so maybe the VAE learns to disentangle noses from eyes from mouths, but not necessarily how they can change over time. Also, I'm not thinking of working with images. I'm thinking of tabular data that measures the features of multiple cells across time. 
+Mutations as contradictions? -> this sentence "this sentence has five words" has five words
+
+For example, challenges in NLP involve processing a sequence not only forward, but also backward. Consider the sentence: "shift two positions backward of each letter of the word 'trapelo' per the alphabet to decode it", where it is needed to read the sentence back and forth to process the word. Do we have to read a genome forward and backwards? -->
