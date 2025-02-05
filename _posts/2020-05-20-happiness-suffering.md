@@ -7,8 +7,6 @@ tags: food-for-thought
 categories: blog-post
 thumbnail: assets/img/happiness-sadness-dall-e-bing.jpg
 disqus_comments: true
-# related_posts: false
-featured: true
 ---
 
 # Versión español

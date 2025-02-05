@@ -11,8 +11,8 @@ authors:
   - name: Xuelong An
 toc:
   sidebar: left
-thumbnail: /assets/img/kennedy-1.png
-  
+thumbnail: /assets/img/kennedy-1.jpg
+featured: true
 ---
 # El Rol de la Inteligencia Artificial en la Medicina
 
