@@ -9,6 +9,12 @@ related_posts: true
 thumbnail: assets/img/nnU-Net_overview.png
 ---
 
+<figure>
+  <img src="/assets/img/nexus_1.jpeg" alt="Sorry. Image couldn't load." width="auto" height="auto">
+  <figcaption id="cell-embedder">Presentation of our segmentation project at UCL Nexus Lab Sympossium </figcaption>
+</figure>
+
+
 George Tang and I participated in the SenNet + HOA Hacking the Human Vasculature [Kaggle Competition](https://www.kaggle.com/competitions/blood-vessel-segmentation). We didn't manage to submit good results prior to the competition deadline 😅. However, after the competition deadline, we managed to obtain a competitive segmentation DICE score that could have earned us ~10th place in the competition. 
 
 
@@ -28,6 +34,11 @@ George Tang and I participated in the SenNet + HOA Hacking the Human Vasculature
 
 # Presentation
 
-I did a presentation for the Nexus Lab Sympossium on March 9th, with slides here attached below:
+<figure>
+  <img src="/assets/img/nexus_2.jpeg" alt="Sorry. Image couldn't load." width="auto" height="auto">
+  <figcaption id="cell-embedder">Our segmentation project's first proposed solution at UCL Nexus Lab Sympossium </figcaption>
+</figure>
+
+The slides for the presentation for the Nexus Lab Sympossium on March 9th are attached below:
 
 {% pdf "/assets/pdf/hacking-the-human-vasculature.pdf" %}

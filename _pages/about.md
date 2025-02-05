@@ -19,9 +19,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello World! I'm An Wang Xuelong, a junior researcher interested in the [consilience of knowledge](https://en.wikipedia.org/wiki/Consilience_%28book%29), with a particular focus within the field of artificial intelligence and socio-biological science. 
+Hello World! I'm An Wang Xuelong, a junior researcher interested leveraging deep learning to address global healthcare challenges, including cardiovascular diseases and cancer. 
 
-I aim to strike the balance the scientific pursuit to understand intelligence and the technological endeavor to adopt what we learn in the research of AI in applications for social good.
+I aim to strike the balance between building performant models with human-centric concerns such as interpretability to shed-light into the black-box and model compression to ensure affordability of the overall system. 
+
+I'm particularly interested in multimodal approaches, such as vision-language models, and ensuring their robustness via introduction of inductive biases. 
+
+<!-- the scientific pursuit to understand intelligence and the technological endeavor to adopt what we learn in the research of AI in applications for social good. -->
 
 <!-- , namely to [improve healthcare](https://www.youtube.com/watch?v=6Af625dJnB0) -->
 
