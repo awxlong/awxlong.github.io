@@ -15,7 +15,6 @@ toc:
   - name: Neuro-symbolic AI for building next-generation virtual cells
   - name: Inverse reinforcement to model cell behavior
 thumbnail: /assets/img/nesy-cell.png
-featured: true
 ---
 
 # Thoughts on _How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities_
