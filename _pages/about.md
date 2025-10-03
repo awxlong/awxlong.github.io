@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello World! I'm An Wang Xuelong, a junior researcher interested leveraging deep learning to address global healthcare challenges, including cardiovascular diseases and cancer. I'm an incoming PhD student at the University of Sheffield, where I'm very fortunate to be supervised by [Dr. Chen Chen](https://cherise215.github.io/) and co-supervised by [Prof. Andy Swift](https://sheffield.ac.uk/smph/people/academic/clinical-medicine/andy-swift). In particular, I'll be working on multimodal deep learning for the analysis of paper electrocardiograms whilst addressing human-centric concerns.  
+Hello World! I'm An Wang Xuelong, a junior researcher interested leveraging deep learning to address global healthcare challenges, including cardiovascular diseases and cancer. I'm currently a PhD candidate at the University of Sheffield, where I'm very fortunate to be supervised by [Dr. Chen Chen](https://cherise215.github.io/) and co-supervised by [Prof. Andy Swift](https://sheffield.ac.uk/smph/people/academic/clinical-medicine/andy-swift). In particular, I'll be working on advancing the interpretation of electrocardiograms via multimodal deep learning, whilst addressing human-centred challenges.  
 
 I aim to strike the balance between building performant models with human-centric concerns such as interpretability to shed-light into the black-box and model compression to ensure affordability of the overall system. I'm particularly drawn to multimodal approaches such as vision-language models, and ensuring their robustness via the introduction of inductive biases. 
 
